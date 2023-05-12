@@ -15,20 +15,20 @@ const Sidebar = () => {
     return (
         <div className='w-16 top-0 shadow-lg right-0 h-full border fixed flex flex-col justify-between py-5'>
             <div className="flex flex-col mx-auto">
-                <DarkModeIcon className="mb-2 cursor-pointer"></DarkModeIcon>
-                <LightModeIcon className="cursor-pointer"></LightModeIcon>
+                <DarkModeIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></DarkModeIcon>
+                <LightModeIcon className="cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></LightModeIcon>
             </div>
             <div className="flex flex-col mx-auto">
-                <HomeRoundedIcon className="mb-2 cursor-pointer"></HomeRoundedIcon>
-                <PersonRoundedIcon className="mb-2 cursor-pointer"></PersonRoundedIcon>
-                <BusinessCenterRoundedIcon className="mb-2 cursor-pointer"></BusinessCenterRoundedIcon>
-                <AcUnitIcon className="mb-2 cursor-pointer"></AcUnitIcon>
-                <PhoneIcon className="cursor-pointer"></PhoneIcon>
+                <HomeRoundedIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></HomeRoundedIcon>
+                <PersonRoundedIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></PersonRoundedIcon>
+                <BusinessCenterRoundedIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></BusinessCenterRoundedIcon>
+                <AcUnitIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></AcUnitIcon>
+                <PhoneIcon className="cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></PhoneIcon>
             </div>
             <div className="flex flex-col mx-auto">
-                <GitHubIcon className="mb-2 cursor-pointer"></GitHubIcon>
-                <LinkedInIcon className="mb-2 cursor-pointer"></LinkedInIcon>
-                <FacebookIcon className="mb-2 cursor-pointer"></FacebookIcon>
+                <GitHubIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></GitHubIcon>
+                <LinkedInIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></LinkedInIcon>
+                <FacebookIcon className="mb-2 cursor-pointer duration-500 hover:rotate-[360deg] transition-all"></FacebookIcon>
             </div>
         </div>
     );
